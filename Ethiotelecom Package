@@ -1,0 +1,618 @@
+def ownerity():
+    print("የ ኢንተርነት ጥቅል ")
+    print("1.ለ እርስዎ")
+    print("2.ስጦታ ለማበርከ")
+    print("**.ዋና መውጫ")
+    print("*.ለመመለስ ")
+def gize():
+    print("1.እለታዊ ")
+    print("2.ሳምንታዊ ")
+    print("3.ወርሃዊ ")
+    print("4.ቀን-ገደብ የሌለው ቅል ")
+    print("5.የጥ ጥቅል ማራዘሚያ ")
+    print("6.የ ለሊ")
+    print("*.ለመመለስ ")
+    print("**")
+def asregit():
+    print("የሚገዙትን ጥቅል መርጠዋል  ")
+    print("ለማረጋገጥ 1ን ያስገቡ ")
+    print("ለመሰረዝ ሌላ ቁጥር ይጫኑ ")
+    print("**.ዋና መውጫ")
+def _2nd():
+    print("5. ye tele birr (25% gursha yaggnu)")
+    print("6.yaltegedebe")
+    print("7.akatach")
+    print ("8.alem akef")
+    print("9.flexi")
+    print ("10.ye message")
+    print ("##.kedami")
+    print ("#.ketay gets")
+def _1st():
+    print ("እንኳን ወደ ኢትዮ ቴሌኮም በደህና መጡ! በ ቴሌብር ሱፐር አፕ ይጠቀ እስከ 25% ቦነስ ያግኙ")
+    print ("1.ኢንተርኔት")
+    print ("2.ድምጽ")
+    print ("3.የማህበራዊ ሚድያ ጥቅል")
+    print ("4.ድምጽ እና ኢንተርኔት")
+    print ("#.ቀጣይ ገጽ")
+    global y
+    y=input()
+def _3rd():
+    print("11.le maznagna")
+    print("asham tele")
+    print("lለተቸማሪ አገልግሎት")
+    print("ቋንቋ ለመቀየር")
+    print("##.kedami")
+def tikl():
+    for i in range(1):
+        x=input("ጥቅል ለመግዛት *999# ያስገቡ:")
+        if x=="*999#":
+            break
+        elif x!= "*999#":
+            print("ያስገቡት ቁጥር የተሳሳተ ነው እባክዎ ደግመው በትክክል ያስገቡ! አትሳሳት")
+            tikl()
+tikl()
+def andegna():
+    def hahu():
+        _1st()
+        if y=="1":
+            def oneq():
+                ownerity()
+                Time=input()
+                if Time=="1":
+                    def gize1():
+                        gize()
+                        a=input()
+                        if a=="1":
+                            def pa():
+                                print("እለታዊ ")
+                                print("1.በ 5 ብ 100ሜ.ባ")
+                                print("#.ቀጣይ ገጽ ")
+                                print("*.ለመመለስ ")
+                                print("**.ዋና መውጫ")
+                                global am
+                                am=input()
+                            pa()
+                            if am=="1":
+                                asregit()
+                                giza=input()
+                                if giza=="1":
+                                    print("ትዕዛዝዎ በተሳካ ሁኔታ ተልኳል የማረጋገጫ አጭር መለክት ይደርስዎታል እናመሰግናለን!ኢትዮ ቴሌኮም")
+                                elif giza=="**":
+                                    andegna()
+                                else:
+                                    print("DID NOT BUY")
+                                exit()
+                            elif am=="#":
+                                def ji():
+                                    print("2.be 10 birr 200mb")
+                                    print("##.kedami")
+                                    print("#.ketay gets")
+                                    print("*.lememeles")
+                                    print("**.wana mewcha")
+                                    global wana
+                                    wana=input()
+                                ji()
+                                if wana=="2":
+                                    asregit()
+                                    giza=input()
+                                    if giza=="1":
+                                        print("ትዕዛዝዎ በተሳካ ሁኔታ ተልኳል የማረጋገጫ አጭር መለክት ይደርስዎታል እናመሰግናለን!ኢትዮ ቴሌኮም")
+                                    elif gize=="**":
+                                        andegna()
+                                    else:
+                                        print("ጥቅልዎን ሰርዘዋል")
+                                    exit()
+                                elif wana=="##":
+                                    gize1()
+                                elif wana=="#":
+                                    def mn():
+                                        print("3.be 15 birr 300mb")
+                                        print("4.be 25 birr 600mb")
+                                        print("5.be 35 birr 1g.b")
+                                        print("##.kedami")
+                                        print("#.ketay gets")
+                                        print("*.lememeles")
+                                        print("**.wana mewcha")
+                                        global ko
+                                        ko=input()
+                                    mn()
+                                    if ko=="3":
+                                        asregit()
+                                        giza=input()
+                                        if giza=="1":
+                                            print("ትዕዛዝዎ በተሳካ ሁኔታ ተልኳል የማረጋገጫ አጭር መለክት ይደርስዎታል እናመሰግናለን!ኢትዮ ቴሌኮም")
+                                        else:
+                                            print("ጥቅልዎን ሰርዘዋል")
+                                        exit()
+                                    elif ko=="4":
+                                        asregit()
+                                        giza=input()
+                                        if giza=="1":
+                                            print("ትዕዛዝዎ በተሳካ ሁኔታ ተልኳል የማረጋገጫ አጭር መለክት ይደርስዎታል እናመሰግናለን!ኢትዮ ቴሌኮም")
+                                        else:
+                                            print("ጥቅልዎን ሰርዘዋል")
+                                        exit()    
+                                    elif ko=="5":
+                                        asregit()
+                                        giza=input()
+                                        if giza=="1":
+                                            print("ትዕዛዝዎ በተሳካ ሁኔታ ተልኳል የማረጋገጫ አጭር መለክት ይደርስዎታል እናመሰግናለን!ኢትዮ ቴሌኮም")
+                                        else:
+                                            print("ጥቅልዎን ሰርዘዋል")
+                                        exit()    
+                                    elif ko=="##":
+                                        ji()
+                                    elif ko=="#":
+                                        def bo():
+                                            print("6.be 65 birr 2 gb")
+                                            print("##.kedami")
+                                            print("*.lememeles")
+                                            print("**.wana mawcha")
+                                            global an
+                                            an=input()
+                                        bo()
+                                        if an=="6":
+                                            asregit()
+                                            giza=input()
+                                            if giza=="1":
+                                                print("ትዕዛዝዎ በተሳካ ሁኔታ ተልኳል የማረጋገጫ አጭር መለክት ይደርስዎታል እናመሰግናለን!ኢትዮ ቴሌኮም")
+                                            else:
+                                                print("ጥቅልዎን ሰርዘዋል")
+                                            exit()    
+                                        elif an=="##":
+                                            mn()
+                                        elif an=="*":
+                                            gize1()
+                                        elif an==("**"):
+                                            andegna()
+                                    elif ko=="**":
+                                        andegna()
+                                    elif ko=="*":
+                                        gize1()
+                                elif wana=="*":
+                                    gize1()
+                                elif wana=="**":
+                                    andegna()
+                                        
+                            elif am=="*":
+                                gize1()
+                            elif am=="**":
+                                andegna()
+                        elif a=="2":
+                            print("ሳምንታዊ ")
+                            print("1.በ 50 ብር 650 ሜ.ባ ")
+                            print("2. በ 70 ብር 1 ጊ.ባ")
+                            print("3. 140 ብር 2.5 ጊ.ባ")
+                            print("    ")
+                            print("#.ቀጣይ ገጽ" )
+                            mq=input()
+                            if mq=="1":
+                                asregit()
+                                af=input()
+                                if af=="1":
+                                    print("ትዕዛዝዎ በተሳካ ሁኔታ ተልኳል የማረጋገጫ አጭር መለክት ይደርስዎታል እናመሰግናለን!ኢትዮ ቴሌኮም ")
+                                elif af=="**":
+                                    andegna()
+                                else:
+                                    print("ጥቅልዎን ሰርዘዋል")
+                                exit()
+                            elif mq=="2":
+                                asregit()
+                                af=input()
+                                if af=="1":
+                                    print("ትዕዛዝዎ በተሳካ ሁኔታ ተልኳል የማረጋገጫ አጭር መለክት ይደርስዎታል እናመሰግናለን!ኢትዮ ቴሌኮም")
+                                elif af=="**":
+                                    andegna()
+                                else:
+                                    print("ጥቅልዎን ሰርዘዋል")
+                                exit()  
+                            elif mq=="3":
+                                asregit()
+                                af=input()
+                                if af=="1":
+                                    print("ትዕዛዝዎ በተሳካ ሁኔታ ተልኳል የማረጋገጫ አጭር መለክት ይደርስዎታል እናመሰግናለን!ኢትዮ ቴሌኮም")
+                                elif af=="**":
+                                    andegna()
+                                else:
+                                    print("ጥቅልዎን ሰርዘዋል")
+                                exit()
+                            elif mq=="#":
+                                def gj():
+                                    print("4.በ 200 ብር 4 ጊ.ባ")
+                                    print("5.በ 300 ብር 7.5 ጊ.ባ")
+                                    print("6.500 ብር 15 ጊ.ባ" )
+                                    print("*.ለመመለስ" )
+                                gj()
+                                ku=input()
+                                if ku=="4":
+                                    asregit()
+                                    af=input()
+                                    if af=="1":
+                                        print("ትዕዛዝዎ በተሳካ ሁኔታ ተልኳል የማረጋገጫ አጭር መለክት ይደርስዎታል እናመሰግናለን!ኢትዮ ቴሌኮም")
+                                    elif af=="**":
+                                        andegna()
+                                    else:
+                                        printt("ጥቅልዎን ሰርዘዋል")
+                                    exit()
+                                if ku=="5":
+                                    asregit()
+                                    af=input()
+                                    if af=="1":
+                                        print("ትዕዛዝዎ በተሳካ ሁኔታ ተልኳል የማረጋገጫ አጭር መለክት ይደርስዎታል እናመሰግናለን!ኢትዮ ቴሌኮም")
+                                    elif af=="**":
+                                        andegna()
+                                    else:
+                                        print("ጥቅልዎን ሰርዘዋል")
+                                    exit()
+                                if ku=="6":
+                                    asregit()
+                                    af=input()
+                                    if af=="1":
+                                        print("ትዕዛዝዎ በተሳካ ሁኔታ ተልኳል የማረጋገጫ አጭር መለክት ይደርስዎታል እናመሰግናለን!ኢትዮ ቴሌኮም")
+                                    elif af=="**":
+                                        andegna()
+                                    else:
+                                        print("ጥቅልዎን ሰርዘዋል")
+                                    exit()
+                                if ku=="*":
+                                    gize1()
+                        if a=="*":
+                            oneq()
+                    gize1()                
+                elif Time=="2":
+                    def silk():
+                        global av
+                        av=input("እባክዎ ስጦታ የሚላክለትን ስልክ ያስገቡ:-")
+                        while True:
+                            if av.startswith("09")and len(av)==10 and av.isdigit():
+                                break
+                            elif av=="1":
+                                exit()
+                            else:
+                                print("yasgebut yetesasate kutr new! ebakwo endegena yasgebu!")
+                                print("ለመሰረዝ ሌላ 1 ን ይጫኑ")
+                                silk()
+                    silk()
+                    print("ለ "+(av)+" ያስገቡ!")
+                    def gize2():
+                        gize()
+                        a=input()
+                        if a=="1":
+                            def pa():
+                                print("እለታዊ")
+                                print("1. በ 5 ብር 100ሜ.ባ")
+                                print("#.ቀታይ ገጽ")
+                                print("*.ለመመለስ")
+                                print("**.ዋና ማውጫ")
+                                global am
+                                am=input()
+                            pa()
+                            if am=="1":
+                                asregit()
+                                giza=input()
+                                if giza=="1":
+                                    print("ትዕዛዝዎ በተሳካ ሁኔታ ተልኳል የማረጋገጫ አጭር መለክት ይደርስዎታል እናመሰግናለን!ኢትዮ ቴሌኮም")
+                                else:
+                                    print("ጥቅልዎን ሰርዘዋል")
+                                exit()
+                            elif am=="#":
+                                def ji():
+                                    print("2.be 10 birr 200mb")
+                                    print("##.kedami")
+                                    print("#.ketay gets")
+                                    print("*.lememeles")
+                                    print("**.wana mewcha")
+                                    global wana
+                                    wana=input()
+                                ji()
+                                if wana=="2":
+                                    asregit()
+                                    giza=input()
+                                    if giza=="1":
+                                        print("ትዕዛዝዎ በተሳካ ሁኔታ ተልኳል የማረጋገጫ አጭር መለክት ይደርስዎታል እናመሰግናለን!ኢትዮ ቴሌኮም")
+                                    elif giza=="**":
+                                        andegna()
+                                    else:
+                                        print("ጥቅልዎን ሰርዘዋል")
+                                    exit()
+                                if wana=="##":
+                                    gize2()    
+                                if wana=="#":
+                                    def mn():
+                                        print("3.በ 15 birr 300 ሜ.ባ")
+                                        print("4.በ 25 birr 600 ሜ.ባ")
+                                        print("5.በ 35 birr 1 ጊ.ባ")
+                                        print("##.ቀዳሚ")
+                                        print("#.ቀጣይ ገጽ")
+                                        print("*.ለመመለስ")
+                                        print("**.ዋና ማውጫ")
+                                        global ko
+                                        ko=input()
+                                    mn()
+                                    if ko=="3":
+                                        asregit()
+                                        giza=input()
+                                        if giza=="1":
+                                            print("ትዕዛዝዎ በተሳካ ሁኔታ ተልኳል የማረጋገጫ አጭር መለክት ይደርስዎታል እናመሰግናለን!ኢትዮ ቴሌኮም")
+                                        elif giza=="**":
+                                            andegna()
+                                        else:
+                                            print("ጥቅልዎን ሰርዘዋል")
+                                        exit()
+                                    elif ko=="4":
+                                        asregit()
+                                        giza=input()
+                                        if giza=="1":
+                                            print("ትዕዛዝዎ በተሳካ ሁኔታ ተልኳል የማረጋገጫ አጭር መለክት ይደርስዎታል እናመሰግናለን!ኢትዮ ቴሌኮም")
+                                        elif giza=="**":
+                                            andegna()
+                                        else:
+                                            print("ጥቅልዎን ሰርዘዋል")
+                                        exit()    
+                                    elif ko=="5":
+                                        asregit()
+                                        giza=input()
+                                        if giza=="1":
+                                            print("ትዕዛዝዎ በተሳካ ሁኔታ ተልኳል የማረጋገጫ አጭር መለክት ይደርስዎታል እናመሰግናለን!ኢትዮ ቴሌኮም")
+                                        elif giza=="**":
+                                            andegna()
+                                        else:
+                                            print("ጥቅልዎን ሰርዘዋል")
+                                        exit()    
+                                    elif ko=="##":
+                                        gize2()
+                                    elif  ko=="#":
+                                        def bo():
+                                            print("6.be 65 birr 2 gb")
+                                            print("##.kedami")
+                                            print("*.lememeles")
+                                            print("**.wana mawcha")
+                                            global an
+                                            an=input()
+                                        bo()
+                                        if an=="6":
+                                            asregit()
+                                            giza=input()
+                                            if giza=="1":
+                                                print("ትዕዛዝዎ በተሳካ ሁኔታ ተልኳል የማረጋገጫ አጭር መለክት ይደርስዎታል እናመሰግናለን!ኢትዮ ቴሌኮም")
+                                            elif giza=="**":
+                                                andegna()
+                                            else:
+                                                print("ጥቅልዎን ሰርዘዋል")
+                                            exit()    
+                                        if an=="##":
+                                            mn()
+                                        if an=="*":
+                                            mn()
+                                        if an==("**"):
+                                            andegna()
+                                    elif ko=="*":
+                                        gize2()
+                                    elif ko=="**":
+                                        andegna()
+                                    else:
+                                        print("ይቅርታ የማያገለግል ቁትር ተችነዋል! እባክዎ እንደገና ይሞክሩ")
+                                        silk()
+                                if wana=="##":
+                                    gize2()
+                                if wana=="**":
+                                    andegna()
+                            elif am=="*":
+                                gize2()
+                            elif am=="**":
+                                andegna()
+                            else:
+                                print("ይቅርታ የማያገለግል ቁጥር ተጭነዋል! እባክዎ እንደገና ይሞክሩ")
+                                silk()
+                        elif a=="2":
+                            print("ሳምንታዊ ")
+                            print("1.በ 50 ብር 650 ሜ.ባ ")
+                            print("2. በ 70 ብር 1 ጊ.ባ")
+                            print("3. 140 ብር 2.5 ጊ.ባ")
+                            print("    ")
+                            print("#.ቀጣይ ገጽ" )
+                            mq=input()
+                            if mq=="1":
+                                asregit()
+                                af=input()
+                                if af=="1":
+                                    print("ትዕዛዝዎ በተሳካ ሁኔታ ተልኳል የማረጋገጫ አጭር መለክት ይደርስዎታል እናመሰግናለን!ኢትዮ ቴሌኮም ")
+                                elif af=="**":
+                                    andegna()
+                                else:
+                                    print("ጥቅልዎን ሰርዘዋል")
+                                exit()
+                            elif mq=="2":
+                                asregit()
+                                af=input()
+                                if af=="1":
+                                    print("ትዕዛዝዎ በተሳካ ሁኔታ ተልኳል የማረጋገጫ አጭር መለክት ይደርስዎታል እናመሰግናለን!ኢትዮ ቴሌኮም")
+                                elif af=="**":
+                                    andegna()
+                                else:
+                                    print("ጥቅልዎን ሰርዘዋል")
+                                exit()  
+                            elif mq=="3":
+                                asregit()
+                                af=input()
+                                if af=="1":
+                                    print("ትዕዛዝዎ በተሳካ ሁኔታ ተልኳል የማረጋገጫ አጭር መለክት ይደርስዎታል እናመሰግናለን!ኢትዮ ቴሌኮም")
+                                elif af=="**":
+                                    andegna()
+                                else:
+                                    print("ጥቅልዎን ሰርዘዋል")
+                                exit()
+                            elif mq=="#":
+                                def gj():
+                                    print("4.በ 200 ብር 4 ጊ.ባ")
+                                    print("5.በ 300 ብር 7.5 ጊ.ባ")
+                                    print("6.500 ብር 15 ጊ.ባ" )
+                                    print("*.ለመመለስ" )
+                                gj()
+                                ku=input()
+                                if ku=="4":
+                                    asregit()
+                                    af=input()
+                                    if af=="1":
+                                        print("ትዕዛዝዎ በተሳካ ሁኔታ ተልኳል የማረጋገጫ አጭር መለክት ይደርስዎታል እናመሰግናለን!ኢትዮ ቴሌኮም")
+                                    elif af=="**":
+                                        andegna()
+                                    else:
+                                        printt("ጥቅልዎን ሰርዘዋል")
+                                    exit()
+                                if ku=="5":
+                                    asregit()
+                                    af=input()
+                                    if af=="1":
+                                        print("ትዕዛዝዎ በተሳካ ሁኔታ ተልኳል የማረጋገጫ አጭር መለክት ይደርስዎታል እናመሰግናለን!ኢትዮ ቴሌኮም")
+                                    elif af=="**":
+                                        andegna()
+                                    else:
+                                        print("ጥቅልዎን ሰርዘዋል")
+                                    exit()
+                                if ku=="6":
+                                    asregit()
+                                    af=input()
+                                    if af=="1":
+                                        print("ትዕዛዝዎ በተሳካ ሁኔታ ተልኳል የማረጋገጫ አጭር መለክት ይደርስዎታል እናመሰግናለን!ኢትዮ ቴሌኮም")
+                                    elif af=="**":
+                                        andegna()
+                                    else:
+                                        print("ጥቅልዎን ሰርዘዋል")
+                                    exit()
+                                if ku=="*":
+                                    gize1()
+                        elif a=="*":
+                            oneq()            
+                    gize2()
+                elif Time=="**":
+                    andegna()
+                elif Time=="*":
+                    andegna()
+                else:
+                    for i in range(3):
+                        print("ይቅርታ የማያገለግል ቁጥር ተጭነዋል! እባክዎ እንደገና ይሞክሩ")
+                        oneq()
+                    exit()
+            oneq()
+        elif y=="2":
+            def qpo():
+                ownerity()
+                jk=input()
+                if jk=="1":
+                    gize()
+                    lk=input()
+                    if lk=="1":
+                        def bh1():
+                            print("eletawi")
+                            print("1.be 5 birr 20 dekika ke netsa 10 dekika ye lelit tikl")
+                            print("#.ketay gets")
+                            er=input()
+                            if er=="1":
+                                asregit()
+                                af=input()
+                                if af=="1":
+                                    print("ትዕዛዝዎ በተሳካ ሁኔታ ተልኳል የማረጋገጫ አጭር መለክት ይደርስዎታል እናመሰግናለን!ኢትዮ ቴሌኮም")
+                                elif af=="**":
+                                    andegna()
+                                else:
+                                    print("ጥቅልዎን ሰርዘዋል")
+                                exit()
+                            elif er=="#":
+                                print("2.be 10 birr 42 dekika")
+                                print("  ##.kedami")
+                                print("ketay gets")
+                                gh=input()
+                                if gh=="2":
+                                    asregit()
+                                    af=input()
+                                    if af=="1":
+                                        print("ትዕዛዝዎ በተሳካ ሁኔታ ተልኳል የማረጋገጫ አጭር መለክት ይደርስዎታል እናመሰግናለን!ኢትዮ ቴሌኮም")
+                                    elif af=="**":
+                                        andegna()
+                                    else:
+                                        print("ጥቅልዎን ሰርዘዋል")
+                                    exit()
+                        bh1()            
+                    elif lk=="2":
+                        print("samintawi")
+                        print("1.be 25 birr 70 dekika ke netsa 35 dekika ye lelit tikl")
+                        print("#.ketay")
+                        ul=input()
+                        if ul=="1":
+                            asregit()
+                            af=input()
+                            if af=="1":
+                                print("ትዕዛዝዎ በተሳካ ሁኔታ ተልኳል የማረጋገጫ አጭር መለክት ይደርስዎታል እናመሰግናለን!ኢትዮ ቴሌኮም")
+                            elif af=="**":
+                                andegna()
+                            else:
+                                print("ጥቅልዎን ሰርዘዋል")
+                            exit()
+                        elif ul=="#":
+                            print("2.be 35 birr 110 dekika")
+                            print("##.kedami")
+                            print("#.ketay kets")
+                            sg=input()
+                            if sg=="2":
+                                asregit()
+                                af=input()
+                                if af=="1":
+                                    print("ትዕዛዝዎ በተሳካ ሁኔታ ተልኳል የማረጋገጫ አጭር መለክት ይደርስዎታል እናመሰግናለን!ኢትዮ ቴሌኮም")
+                                elif af=="**":
+                                    andegna()
+                                else:
+                                    print("ጥቅልዎን ሰርዘዋል")
+                                exit()
+                            elif sg=="#":
+                                print("3. be 45 birr 145 dekika")
+                                print("*.lememeles")
+                                print("**.wana mewcha")
+                                print("##.kedami")
+                                tr=input()
+                                if tr=="3":
+                                    asregit()
+                                    af=input()
+                                    if af=="1":
+                                        print("ትዕዛዝዎ በተሳካ ሁኔታ ተልኳል የማረጋገጫ አጭር መለክት ይደርስዎታል እናመሰግናለን!ኢትዮ ቴሌኮም")
+                                    elif af=="**":
+                                        andegna()
+                                    else:
+                                        print("ጥቅልዎን ሰርዘዋል")
+                                    exit()        
+                    elif lk=="3":
+                        print("werhawi")
+                        print("1.be 50 birr 125 dekika ke netsa 63 dekika ye lelit tikl")
+                        print("#.ketay gets")
+                    elif lk=="4":
+                        print("ken gedeb yelelew tikl")
+                        print("1.be 125 birr 300 dekika")
+                        print("*.lememeles")
+            qpo()
+        elif y=="3":
+            ownerity()
+            Time=input()
+            if Time=="1" or Time=="2":
+                gize()
+                a=input()
+        elif y=="4":
+            ownerity()
+            Time=input()
+            if Time=="1" or Time=="2":
+                gize()
+                a=input()
+        elif y=="#":
+            _2nd()
+            akl=input()
+            if akl=="#":
+                _3rd()
+                yt=input()
+                if yt=="*":
+                    gjk()
+                elif yt=="**":
+                    andegna()
+        else:
+            print("ይቅርታ የማያገለግል ቁትር ትጭነዋል! እባክዎ ደግመው ይሞክሩ")
+            andegna()
+    hahu()
+andegna()
